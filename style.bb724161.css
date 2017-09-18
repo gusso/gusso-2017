@@ -81,6 +81,8 @@ a {
       color: #9364FB; }
       .dark p + a:after {
         color: #9364FB; }
+  footer a:after {
+    color: #9364FB; }
   a.thumbnail {
     font-size: 14px;
     line-height: 150%;
