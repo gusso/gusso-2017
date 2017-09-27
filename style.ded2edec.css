@@ -139,7 +139,7 @@ h1,
     content: '';
     display: block;
     background: rgba(76, 76, 76, 0.05);
-    width: 2000%;
+    width: 100vw;
     height: 10px;
     position: absolute;
     top: 1px;
