@@ -1,0 +1,296 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Intentful Contrast – Links</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Inter is a typeface family optimized for user interfaces and computer screens"
+    />
+  </head>
+  <style>
+    /* Inter */
+    @import url("https://rsms.me/inter/inter.css");
+    html {
+      font-family: "Inter", sans-serif;
+    }
+    @supports (font-variation-settings: normal) {
+      html {
+        font-family: "Inter var", sans-serif;
+      }
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      letter-spacing: -0.4px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 600px;
+      padding: 0 16px;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    li {
+      margin: 36px 0;
+    }
+
+    a {
+      color: black;
+    }
+
+    li a {
+      display: flex;
+      align-items: center;
+
+      text-decoration: none;
+    }
+
+    .icon {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      height: 52px;
+      width: 52px;
+      flex: 0 0 52px;
+      border-radius: 25%;
+      position: relative;
+      overflow: hidden;
+      font-size: 24px;
+      margin-right: 16px;
+    }
+
+    .icon img {
+      width: 100%;
+    }
+
+    li span {
+      padding-top: 2px;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 26px;
+    }
+
+    li .name {
+      text-decoration: underline;
+      text-decoration-color: black;
+      text-underline-offset: 3px;
+      text-decoration-thickness: from-font;
+    }
+
+    li .author {
+      font-size: 16px;
+      font-weight: 400;
+      opacity: 0.6;
+      display: block;
+    }
+
+    h1 {
+      font-size: 54px;
+      letter-spacing: -0.9px;
+      font-weight: 800;
+      line-height: 54px;
+      margin-bottom: 0;
+    }
+
+    .subtitle {
+      display: block;
+      font-size: 18px;
+      font-weight: 500;
+      letter-spacing: -0.4px;
+      line-height: 38px;
+    }
+
+    .separator {
+      margin: 0 8px;
+    }
+
+    .subtitle a {
+      text-decoration: underline;
+      text-decoration-color: black;
+      text-underline-offset: 2px;
+      text-decoration-thickness: from-font;
+    }
+
+    h2 {
+      font-size: 36px;
+      margin-top: 70px;
+    }
+
+    .no-underline {
+      text-decoration: none;
+    }
+
+    .primary {
+      margin: 64px 0;
+    }
+
+    .primary li {
+      margin: 30px 0;
+    }
+
+    .primary li span {
+      font-size: 30px;
+      font-weight: 700;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h1>Intentful Contrast</h1>
+
+      <span class="subtitle"
+        ><a href="https://twitter.com/gusso">Henrique Gusso</a>
+        <span class="separator">—</span>
+        <a href="https://config.figma.com">Config Europe 2020</a></span
+      >
+
+      <ul class="primary">
+        <li>
+          <a href="https://www.figma.com/community/plugin/847120744711293046">
+            <div class="icon">
+              <img src="palettes.png" />
+            </div>
+            <span class="name">Palettes</span>
+          </a>
+        </li>
+      </ul>
+
+      <h2>References</h2>
+
+      <ul>
+        <li>
+          <a href="http://www.displaymate.com/Diamond_41a.html">
+            <div class="content">
+              <span class="name">iPhone X Diamond Sub-Pixels</span
+              ><span class="author">DisplayMate</span>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef"
+          >
+            <div class="content">
+              <span class="name"
+                >Web Content Accessibility Guidelines (WCAG) 2.0</span
+              ><span class="author">W3C</span>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://ciechanow.ski/color-spaces/">
+            <div class="content">
+              <span class="name">Color Spaces</span
+              ><span class="author">Bartosz Ciechanowski</span>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/w3c/wcag/issues/695">
+            <div class="content">
+              <span class="name"
+                >Contrast Ratio Math and Related Visual Issues</span
+              ><span class="author">Andrew Somers</span>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.myndex.com/SAPC/">
+            <div class="content">
+              <span class="name">SAPC Visual Contrast Demo</span
+              ><span class="author">Andrew Somers</span>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.hsluv.org">
+            <div class="content">
+              <span class="name">HSLuv</span
+              ><span class="author">Alexei Boronine</span>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="http://jamie-wong.com/post/color/">
+            <div class="content">
+              <span class="name">Color: From Hexcodes to Eyeballs</span
+              ><span class="author">Jamie Wong</span>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://stripe.com/blog/accessible-color-systems">
+            <div class="content">
+              <span class="name">Designing accessible color systems</span
+              ><span class="author"
+                >Daryl Koopersmith and Wilson Miner (Stripe)</span
+              >
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="http://www.mrao.cam.ac.uk/~dag/CUBEHELIX/">
+            <div class="content">
+              <span class="name">'cubehelix' colour scheme</span
+              ><span class="author">Dave Green</span>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://twitter.com/stuartmumford/status/350337547341295616?s=21"
+          >
+            <div class="content">
+              <span class="name">Plot of the Sun using 'cubehelix'</span
+              ><span class="author">Stuart Mumford</span>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="http://www.colorbox.io">
+            <div class="content">
+              <span class="name">ColorBox</span
+              ><span class="author">Lyft Design</span>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://design.lyft.com/re-approaching-color-9e604ba22c88">
+            <div class="content">
+              <span class="name">Re-approaching Color</span
+              ><span class="author">Kevyn Arnott (Lyft Design)</span>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://leonardocolor.io">
+            <div class="content">
+              <span class="name">Leonardo</span
+              ><span class="author">Nate Baldwin (Adobe)</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
